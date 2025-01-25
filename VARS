@@ -1,0 +1,9 @@
+-name: ngsnx instal
+hosts: inventory
+vars: 
+siva: good
+we : bad
+
+tasks:
+ansible.builtin.debug:
+echo "message sds\ my option {{siva}},not yours"

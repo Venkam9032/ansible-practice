@@ -1,0 +1,5 @@
+-name: nginx install
+  hosts: local
+  become: yes
+  roles:
+  -nginx install
